@@ -1,5 +1,3 @@
-# Credit-Card-EDA-Visualization-Regression-Modelling-
-EDA on credit card dataset with Visualizations and Regression modelling including: 
 # Credit Card (EDA, Visualization & Regression Modeling)
 
 This GitHub repository contains code and analysis for the "Credit Card" dataset. The primary goal of this project is to explore the dataset, visualize its features, perform data cleaning, and create regression models such as (Linear Regression, Random Forest,  Ridge Regression, Gradient Boosting Regression &amp; Stacking Regressing Model) for predicting a target variable labeled "label." The following stages are covered in this code: https://www.kaggle.com/datasets/rohitudageri/credit-card-details
@@ -43,3 +41,52 @@ Hyperparameter tuning is conducted on the Stacking Regressing Model using **Rand
 ## Model Comparison
 
 The code concludes by comparing the performance of the different regression models, noting that while the **Random Forest model** achieved the lowest Mean Absolute Error (MAE), all models exhibit relatively similar performance with R-squared scores close to zero, indicating challenges in explaining the variance in the target variable.
+
+# Model Evaluation Report
+
+### Overview
+
+This report summarizes the performance of various machine learning models applied to the dataset. The goal is to predict [target variable], and the models have been evaluated using different regression techniques.
+
+### Models and Evaluation Metrics
+
+**Linear Regression:**
+- Mean Absolute Error (MAE): 0.1823
+- Mean Squared Error (MSE): 0.0847
+- R-squared (R²) Score: -0.0012
+
+**Random Forest:**
+- Mean Absolute Error (MAE): 0.1672
+- Mean Squared Error (MSE): 0.0889
+- R-squared (R²) Score: -0.0500
+
+**Ridge Regression:**
+- Mean Absolute Error (MAE): 0.1825
+- Mean Squared Error (MSE): 0.0849
+- R-squared (R²) Score: -0.0032
+
+**Gradient Boosting Regression:**
+- Mean Absolute Error (MAE): 0.1702
+- Mean Squared Error (MSE): 0.0845
+- R-squared (R²) Score: 0.0016
+
+**Stacking Regression Model:**
+- Mean Absolute Error (MAE): 0.1702
+- Mean Squared Error (MSE): 0.0845
+- R-squared (R²) Score: 0.0016
+
+### Model Comparison
+
+Among the models evaluated, the Random Forest model achieved the lowest Mean Absolute Error (MAE) of 0.1672, indicating better predictive accuracy.
+However, it's important to note that all models exhibit relatively similar performance, with R-squared scores close to zero, suggesting that the models struggle to explain the variance in the target variable.
+
+### Future Steps
+
+- Further feature engineering and data preprocessing may be necessary to improve model performance.
+- Consider trying different regression techniques or more advanced machine learning models to see if they can better capture the underlying patterns in the data.
+- Explore potential outliers or anomalies in the dataset that could be affecting model predictions.
+
+### Conclusion
+
+In this analysis, we evaluated multiple regression models for predicting [target variable]. While no model achieved a high R-squared score, the Random Forest model demonstrated the best performance among the tested models. Further refinement and exploration of the data may be required to achieve better results.
+
